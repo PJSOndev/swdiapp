@@ -19,6 +19,15 @@ class DatabaseSeeder extends Seeder
 
         // Call AssetSeeder
         $this->call(AssetSeeder::class);
+        $this->call(Barangayb2Seeder::class);
+        $this->call(Barangayb3Seeder::class);
+        $this->call(Barangayb4Seeder::class);
+        $this->call(Barangayb5Seeder::class);
+        $this->call(BarangaysSeeder::class);
+        $this->call(CitiesSeeder::class);
+        $this->call(RegionSeeder::class);
+        $this->call(ProvinceSeeder::class);
+        $this->call(IncomeSeeder::class);
     }
 }
 
